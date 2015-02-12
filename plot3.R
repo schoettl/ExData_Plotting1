@@ -2,7 +2,7 @@ source("project1.R")
 
 png(filename="plot3.png")
 
-columns = 7:9
+columns = 7:9 # Sub metering 1 to 3
 colors = c("black", "red", "blue")
 
 plot(data$datetime,  data$Sub_metering_1, type="n", xlab="", ylab="Energy sub metering")
